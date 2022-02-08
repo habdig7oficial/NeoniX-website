@@ -1,0 +1,215 @@
+/*Aviso de Licença da Página*/
+
+/*Disponível no arquivo COPYING*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap');
+
+body{
+  overflow-x: hidden;
+}
+
+:root{
+    --preto:rgb(0,0,0);
+    --branco: rgb(255,255,255);
+
+    --rosa_padrao:rgb(247, 40, 175);
+    --rosa_var:rgb(199, 74, 155);
+    --rosa_var2:rgb(201, 28, 141);
+
+    --verde_padrao: rgb(44, 242, 130);
+    --verde_var:rgb(33, 79, 50);
+    --verde_var2:rgb(33, 219, 114);
+
+    --azul_padrao:rgb(85, 250, 239);
+    --azul_var:rgb(61, 252, 240);
+
+    --roxo_padrao: rgb(211, 126, 217); 
+
+
+}
+
+::selection{
+  color: var(--rosa_padrao);
+  background-color: var(--verde_var);
+}
+
+p{
+  color: var(--branco);
+  padding: 0.5rem;
+}
+
+h5{
+  color: var(--branco);
+}
+
+a{
+  color: var(--azul_padrao);
+}
+
+a:hover{
+  animation: a_hover 5s infinite;
+}
+
+a:visited{
+  color: var(--roxo_padrao);
+}
+
+
+input{
+  color: var(--rosa_var);
+}
+
+
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.just{
+  text-align: justify;
+  padding-bottom: 3rem;
+}
+
+.marge{
+  padding-top: 5rem;
+}
+
+.neons_buttons{
+
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: var(--rosa_padrao);
+    border: 0.1rem solid var(--rosa_padrao);
+    background-color: transparent;
+    border-radius: 1.2rem;
+    
+
+}
+
+.neons_buttons:hover{
+  animation: glow_my_button 2s infinite;
+  color: var(--rosa_padrao);
+
+}
+
+.padded{
+  padding-top: 5rem;
+}
+
+.tcenter{
+  text-align: center;
+}
+
+.neonix{
+
+  font-family: 'Noto Serif', serif;
+
+  animation: neon_logo 2.7s  infinite;
+
+
+}
+
+.neon_text_alternative{
+  animation: neon_alt 2.7s  infinite;
+
+  font-size: 1.5rem;
+}
+
+
+
+@keyframes a_hover {
+  0%,100%{
+    text-shadow: none;
+    color: var(--azul_padrao);
+  }
+
+  50%{
+
+    text-shadow:       
+    0 0 7px   var(--azul_var),
+    0 0 10px  var(--azul_var),
+    0 0 21px  var(--azul_var),
+    0 0 42px  var(--azul_padrao),
+    0 0 82px  var(--azul_padrao),
+    0 0 92px  var(--azul_padrao),
+    0 0 102px var(--azul_padrao),
+    0 0 151px var(--azul_padrao);
+  }
+}
+
+@keyframes neon_logo {
+  0%,100%{
+
+    color: var(--rosa_padrao);
+
+    text-shadow:       
+    0 0 7px   var(--rosa_var2),
+    0 0 10px  var(--rosa_var2),
+    0 0 21px  var(--rosa_var2),
+    0 0 42px  var(--rosa_padrao),
+    0 0 82px  var(--rosa_padrao),
+    0 0 92px  var(--rosa_padrao),
+    0 0 102px var(--rosa_padrao),
+    0 0 151px var(--rosa_padrao);
+  }
+
+  50%{
+
+    color: var(--rosa_var2);
+    
+    text-shadow: none;   
+ 
+
+  }
+
+  }
+
+
+@keyframes neon_alt {
+  0%,100%{
+
+    color: var(--verde_padrao);
+
+    text-shadow:       
+    0 0 7px   var(--verde_var2),
+    0 0 10px  var(--verde_var2),
+    0 0 21px  var(--verde_var2),
+    0 0 42px  var(--verde_padrao),
+    0 0 82px  var(--verde_padrao),
+    0 0 92px  var(--verde_padrao),
+    0 0 102px var(--verde_padrao),
+    0 0 151px var(--verde_padrao);
+  }
+
+  50%{
+
+    color: var(--verde_var2);
+    
+    text-shadow: none;   
+ 
+
+  }
+}
+
+@keyframes glow_my_button {
+  0%,100%{
+    box-shadow: none;
+    text-shadow: none;
+    
+  }
+
+  50%{
+    box-shadow:  0 0 1em  var(--rosa_var);
+
+
+  }
+
+}
+
+
