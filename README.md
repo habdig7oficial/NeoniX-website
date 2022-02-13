@@ -19,7 +19,7 @@ PDL -- kernel legacy
 Illumos website: https://illumos.org/
 
 
-Open Indiana website:https://www.openindiana.org/br/
+Open Indiana website: https://www.openindiana.org/br/
 
 
 Qualquer problema ou sugestões envie para habdig7@gmail.com
