@@ -1,0 +1,23 @@
+{
+  "name": "neonix-website",
+  "version": "0.0.2",
+  "description": "Fontes do site do NeoniX, NeoniX é um Sisitema Operacional (OS) de código aberto e gratuido desenvolvido baseado no kernel illumos sendo um fork do Open Indiana.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/habdig7oficial/NeoniX-website.git"
+  },
+  "author": "Mateus Felipe da Silveira Vieira",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/habdig7oficial/NeoniX-website/issues"
+  },
+  "homepage": "https://github.com/habdig7oficial/NeoniX-website#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3"
+  }
+}
